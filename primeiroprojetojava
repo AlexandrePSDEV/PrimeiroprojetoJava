@@ -1,0 +1,15 @@
+
+package primeiroprojetojava;
+
+import java.util.Scanner;
+
+public class PrimeiroProjetoJava {
+
+    public static void main(String[] args) {
+        
+        Scanner leitor = new Scanner(System.in);
+        System.out.println("Informe se nome :");
+        String nome = leitor.next();
+        System.out.println("Seja bem vindo " + nome +" ao primeiro programa java");
+    }
+    
